@@ -1,7 +1,8 @@
 package edu.ncsu.monopoly;
 
 public class GameBoardFull extends GameBoard {
-    private static final String BLUE = "blue";
+    private static final String FUCHSIA = "fuchsia";
+	private static final String BLUE = "blue";
 	private static final String GREEN = "green";
 	private static final String YELLOW = "yellow";
 
@@ -85,19 +86,19 @@ public class GameBoardFull extends GameBoard {
         lb3.setRent(8);
         
         p1.setPrice(140);
-        p1.setColorGroup("fuchsia");
+        p1.setColorGroup(FUCHSIA);
         p1.setHousePrice(100);
         p1.setName("St. Charles Place");
         p1.setRent(10);
         
         p2.setPrice(140);
-        p2.setColorGroup("fuchsia");
+        p2.setColorGroup(FUCHSIA);
         p2.setHousePrice(100);
         p2.setName("States Avenue");
         p2.setRent(10);
         
         p3.setPrice(160);
-        p3.setColorGroup("fuchsia");
+        p3.setColorGroup(FUCHSIA);
         p3.setHousePrice(100);
         p3.setName("Virginia Avenue");
         p3.setRent(12);
