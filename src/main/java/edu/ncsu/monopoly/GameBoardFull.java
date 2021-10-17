@@ -1,7 +1,10 @@
 package edu.ncsu.monopoly;
 
 public class GameBoardFull extends GameBoard {
-    public GameBoardFull() {
+    private static final String GREEN = "green";
+	private static final String YELLOW = "yellow";
+
+	public GameBoardFull() {
         super();
         PropertyCell dp1 = new PropertyCell();
         CardCell cc1 = new CardCell(Card.TYPE_CC, "Community Chest 1");
@@ -135,37 +138,37 @@ public class GameBoardFull extends GameBoard {
         r3.setRent(20);
         
         y1.setPrice(260);
-        y1.setColorGroup("yellow");
+        y1.setColorGroup(YELLOW);
         y1.setHousePrice(150);
         y1.setName("Atlantic Avenue");
         y1.setRent(22);
         
         y2.setPrice(260);
-        y2.setColorGroup("yellow");
+        y2.setColorGroup(YELLOW);
         y2.setHousePrice(150);
         y2.setName("Ventnor Avenue");
         y2.setRent(22);
         
         y3.setPrice(280);
-        y3.setColorGroup("yellow");
+        y3.setColorGroup(YELLOW);
         y3.setHousePrice(150);
         y3.setName("Marvin Gardens");
         y3.setRent(24);
         
         g1.setPrice(300);
-        g1.setColorGroup("green");
+        g1.setColorGroup(GREEN);
         g1.setHousePrice(200);
         g1.setName("Pacific Avenue");
         g1.setRent(26);
         
         g2.setPrice(300);
-        g2.setColorGroup("green");
+        g2.setColorGroup(GREEN);
         g2.setHousePrice(200);
         g2.setName("North Carolina Avenue");
         g2.setRent(26);
         
         g3.setPrice(320);
-        g3.setColorGroup("green");
+        g3.setColorGroup(GREEN);
         g3.setHousePrice(200);
         g3.setName("Pennsylvania Avenue");
         g3.setRent(28);
